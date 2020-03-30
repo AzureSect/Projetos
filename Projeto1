@@ -37,7 +37,7 @@ media = (a + b + c + d)/4
 
 print("média: {}".format(media))
 
-if media>5:
+if media>= 5:
     print("Parabéns! Você foi aprovado.")
 else:
     print("Infelizmente, você foi reprovado.")
