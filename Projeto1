@@ -1,0 +1,47 @@
+# a=int(input('Primeiro Valor: '))
+# b=int(input('Segundo Valor: '))
+# c=int(input('Terceiro Valor:'))
+# if a>b and a>c:
+#     print("O maior número é: {}".format(a))
+# elif b>a and b>c:
+#     print("O maior número é: {}".format(b))
+# else:
+#     print("O maior número é: {}".format(c))
+#
+# print("fim do programa")
+
+# a= int(input('Entre com um valor: '))
+# b= int(input("Entre com um valor: "))
+# resto_a=a % 2
+# resto_b=b % 2
+# if resto_a == 0 or resto_b==0:
+#     print("número é par")
+# else:
+#     print("nenhum número par foi digitado")
+
+a= int(input("Primeiro Semestre: "))
+if a>10:
+    input("Você digitou errado. Primeiro Semestre: ")
+
+b=int(input("Segundo Semestre: "))
+if b>10:
+    input("Você digitou errado. Segundo Semestre: ")
+c= int(input("Terceiro Semestre: "))
+if c>10:
+    input("Você digitou errado. Terceiro Semestre: ")
+d= int(input("Quarto Semestre: "))
+if d>10:
+    input("Você digitou errado. Quarto Semestre: ")
+
+media = (a + b + c + d)/4
+
+print("média: {}".format(media))
+
+if media>5:
+    print("Parabéns! Você foi aprovado.")
+else:
+    print("Infelizmente, você foi reprovado.")
+# if a <= 10 and b<= 10 and c<= 10 and d<= 10:
+#     print('media: {}' .format(media))
+# else:
+#     print("foi informada nota errada")
