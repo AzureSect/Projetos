@@ -1,0 +1,5 @@
+class MeuPrograma{
+    public static void main(String[] args) {
+        //primeiro comentário
+        System.out.println ("Minha primeira aplicacao Java");
+        //Lembrete : system.out É DIFERENTE de System.out
